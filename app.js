@@ -17,7 +17,7 @@ const courseModel = require('./models/credits');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-const allowedOrigins = ['http://localhost:3000', 'https://markxtools.netlify.app'];
+const allowedOrigins = ['http://localhost:3000', 'https://markcasino.netlify.app'];
 const corsOptions = {
     origin: function (origin, callback) {
         if (!origin || allowedOrigins.includes(origin)) {
